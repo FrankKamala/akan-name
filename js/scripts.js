@@ -21,3 +21,8 @@ function getInput(){
   }
 
 }
+function calculateDay(){
+  getInput();
+   dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
+    return (Math.floor(dayOfWeek));
+}
