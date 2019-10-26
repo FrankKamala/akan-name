@@ -4,7 +4,7 @@ function getInput(){
   century = parseInt(document.getElementById("century").value);
   year=parseInt(document.getElementById("year").value);
   month = parseInt(document.getElementById("month").value);
-  dayOfMonth = parseInt(document.getElementById("day").value);
+  dayOfMonth = parseInt(document.getElementById("dob").value);
 
   if(century == ""){
     alert("Input the correct gender");
@@ -27,9 +27,14 @@ function calculateDay(){
     return (Math.floor(dayOfWeek));
 }
 
+function checkDay(){
+  day= calculateDay();
+  checkGender();
+}
 
-let daysOfWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-let boyNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+
+let daysOfWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];// days of week array
+let boyNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];   //boysnames array
 
 function checkGender(){
   var gen = document.getElementsByName("rads");
@@ -42,26 +47,26 @@ function checkGender(){
  switch(gender){
    case gender = "male":
    switch (day){
-     case (0 || -0):
-        document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is " + boyNames[0];
+     case 0 || -0 :
+        document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your Akan name is " + boyNames[0];
         break;
-        case(1||-1):
-        document.getElementById("result").innerHTML = "The day is Monday ." + " " + "Your akan name is " + boyNames[1];
+        case 1 || -1 :
+        document.getElementById("result").innerHTML = "The day is Monday ." + " " + "Your Akan name is " + boyNames[1];
         break;
-        case(2||-2):
-        document.getElementById("result").innerHTML = "The day is Tuesday ." + " " "Your akan name is " + boyNames[2];
+        case 2 || -2:
+        document.getElementById("result").innerHTML = "The day is Tuesday ." + " " +"Your Akan name is " + boyNames[2];
         break;
-        case(3||-3):
-        document.getElementById("result").innerHTML = "The day is on a Wednesday ." + "Your akan name is " + boyNames[3];
+        case 3 || -3:
+        document.getElementById("result").innerHTML = "The day is on a Wednesday ." + "Your Akan name is " + boyNames[3];
         break;
-        case(4||-4):
-        document.getElementById("result").innerHTML = "the day is Thursday . " + "Your akan name is " +boyNames[4];
+        case 4 || -4:
+        document.getElementById("result").innerHTML = "the day is Thursday . " + "Your Akan name is " + boyNames[4];
         break;
-        case(5||-5):
-        document.getElemenById("result").innerHTML = "The day is Friday ." + "Your akan name is " +boyNames[5];
-        break;
-        case(6||-6):
-        document.getElementById("result").inneerHTML ="The day is Saturday ." + "Your akan name is " +boyNames[6];
+        case 5 || -5 :
+           document.getElementById("result").innerHTML = "The day is on a Friday." + "  " + "Your Akan name is " + boyNames[0];
+           break;
+        case 6 || -6:
+        document.getElementById("result").innerHTML ="The day is Saturday ." + "Your Akan name is " + boyNames[6];
         break;
         default:
 
