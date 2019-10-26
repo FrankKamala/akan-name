@@ -9,10 +9,10 @@ function getInput(){
   if(century == ""){
     alert("Input the correct gender");
     return false;
-  }else if (year == ""){
+  }else if (year ==""){
     alert("Input the correct year");
     return false;
-  }else if (month == ""){
+  }else if (month ==""){
     alert("Input the correct month");
     return false;
   }else if(dayOfMonth == ""){
