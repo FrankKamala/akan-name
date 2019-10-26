@@ -114,12 +114,12 @@ afua  Friday
 ama   saturday
 
 mnames
- sunday  Kwasi"
- Monday Kwadwo"
- Tuesday Kwabena",
-Wednesday "Kwaku",
-Thursday "Yaw"
-Friday "Kofi
-saturday Kwame"
+ sunday  Kwasi
+ Monday Kwadwo
+ Tuesday Kwabena
+Wednesday "Kwaku
+Thursday Yaw
+Friday Kofi
+saturday Kwame
 
 */
