@@ -15,6 +15,15 @@ Francis Kamala Albert.
 
 Unzip the folder contents and open index.html file on any browser
 
+## BDD (Behaviour Driven Development)
+
+| input   	| Details                                    	|
+|---------	|--------------------------------------------	|
+| Day     	| This is the day a user was born            	|
+| Month   	| The month in which a user is born          	|
+| Year    	| The Year in the century that one was born. 	|
+| Century 	| The Century born in.                       	|
+
 ## Technologies Used
 * HTML
 * JavaScript
