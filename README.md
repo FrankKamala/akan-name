@@ -7,6 +7,7 @@ This is a small web app that receives user birth date details and displays their
 Francis Kamala Albert.
 
 ## Screenshot
+![image](https://github.com/FrankKamala/akan-name/blob/master/images/screenshot/ui.png)
 
 
 ## Setup
