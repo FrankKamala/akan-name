@@ -1,5 +1,6 @@
-var century,year,day,dayOfWeek,dayOfMonth;
+var century,year,day,dayOfWeek,dayOfMonth; //variables declared
 
+//input function
 function getInput(){
   century = parseInt(document.getElementById("century").value);
   year=parseInt(document.getElementById("year").value);
@@ -21,12 +22,13 @@ function getInput(){
   }
 
 }
+//calculateDay function
 function calculateDay(){
   getInput();
    dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
     return (Math.floor(dayOfWeek));
 }
-
+//check akanDay
 function checkDay(){
   day= calculateDay();
   checkGender();
@@ -36,6 +38,7 @@ function checkDay(){
 let daysOfWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];// days of week array
 let boyNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];   //boysnames array
 
+//Function to checkGender
 function checkGender(){
   var gen = document.getElementsByName("rads");
   if (gen[0].checked == true){
@@ -109,5 +112,14 @@ akua  Wednesday
 yaa   Thursday
 afua  Friday
 ama   saturday
+
+mnames
+ sunday  Kwasi"
+ Monday Kwadwo"
+ Tuesday Kwabena",
+Wednesday "Kwaku",
+Thursday "Yaw"
+Friday "Kofi
+saturday Kwame"
 
 */
