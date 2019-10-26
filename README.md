@@ -17,12 +17,17 @@ Unzip the folder contents and open index.html file on any browser
 
 ## BDD (Behaviour Driven Development)
 
-| input   	| Details                                    	|
-|---------	|--------------------------------------------	|
-| Day     	| This is the day a user was born            	|
-| Month   	| The month in which a user is born          	|
-| Year    	| The Year in the century that one was born. 	|
-| Century 	| The Century born in.                       	|
+| Input   	| Behaviour                                              	|
+|---------	|--------------------------------------------------------	|
+| Day     	| Users feeds in the day they were born                  	|
+| Month   	| Users feeds the month in which a user is born          	|
+| Year    	| Users feeds the year in the century that one was born. 	|
+| Century 	| Users feeds the century born                           	|
+
+| Ouput   	| Detail                                            	    |
+|---------	|--------------------------------------------------------	|
+| Result   	| Display the Akan name after submitting. 	              |
+
 
 ## Technologies Used
 * HTML
